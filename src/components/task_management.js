@@ -16,9 +16,17 @@ const Task_management = () => {
           </div>
         </div>
         <div className="flex items-center justify-center">
-          <textarea className="rounded-md h-9 w-80"></textarea>
-          <div className="cursor-pointer ml-20">
+          <textarea className="rounded-md h-9 w-80 bg-slate-300 px-2 py-1"></textarea>
+          <div className="cursor-pointer ml-20 rounded-md bg-slate-300">
             <IoCreateOutline size={50} color="1d4ed8" />
+          </div>
+        </div>
+        <div className="flex items-center justify-center mt-10">
+          <div className="font-bold text-xl my-2 mx-4">
+            Click here to delete existing task
+          </div>
+          <div className="cursor-pointer ml-20 rounded-md bg-slate-300">
+            <MdDelete size={50} color="red" />
           </div>
         </div>
       </div>

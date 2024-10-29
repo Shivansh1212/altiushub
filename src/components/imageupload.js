@@ -14,7 +14,7 @@ const Imageupload = () => {
           <div className="font-bold text-xl my-2">
             Enter URL of image to be uploaded here..
           </div>
-          <textarea className="rounded-md h-9 w-full"></textarea>
+          <textarea className="rounded-md h-9 w-full bg-slate-300 px-2 py-1"></textarea>
         </div>
       </div>
       <div className="bg-blue-500 text-white rounded-md px-4 py-2 shadow-md hover:bg-blue-700 duration-300 font-semibold border border-blue-600 mb-36">
